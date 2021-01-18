@@ -1,5 +1,6 @@
 import random
 
+#User guessing the number
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0
@@ -10,7 +11,9 @@ def guess(x):
         elif guess > random_number:
             print('Sorry, guess again. Too high.')
     print(f'Yay, congrats. You have guessed the number {random_number}')
+#guess(10)
 
+#Computer guessing the number
 def computer_guess(x):
     low = 1
     high = x
