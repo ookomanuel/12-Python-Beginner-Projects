@@ -22,8 +22,6 @@ last_verb = input("Last Verb: ")
 noun1 = input("Noun: ")
 adj5 = input("Adjective: ")
 
-
-
 #madlib = f"Computer programming is so {adj}! It makes me so excited all the time because \
 #I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
 
